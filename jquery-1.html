@@ -4,16 +4,16 @@
   <title>jQuery test page</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script>
-  $(function() {
     function getHeadline() {
-      $("h1").text();
+      hLine = $('h1').text();
+      return hLine;
     }
-    function changeHeadlines() {
-      $("h1").text("New headline");
-      $("h2").text("A Wikipedia article");
+    function changeHeadline() {
+      $('h1').text('New Headline');
+      $('h2').text('A Wikipedia Article');
     }
-  });
-  </script>
+
+</script>
 </head>
 <body>
   <h1>Lorem ipsum</h1>
